@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-##########################
-# Annalisa Russo         #
-# Coresystems ch - 2013  #
-##########################
+
 from boto.ec2.connection import EC2Connection
 from boto.ec2.connection import *
 from boto import ec2
@@ -20,7 +17,7 @@ from array import *
 from  sectorEUIRELANDops import *
 
 
-path1 = '/opt/applications/backupy/NEW-EU-Operations/backup.log'
+path1 = '/opt/applications/backupy/Operations/backup.log'
 f = open(path1, 'w')
 
 
@@ -358,13 +355,8 @@ toNagios=(time.strftime('%A %d %b'))
 END_BACKUP_DESCRIPTION = "{}".format(toNagios)
 
 
-
-
-
 backup = Backup(backup_type)
 backup.start()
-
-
 
 
 logger.info("---SUCCESS--BACKUP--END---: ["+ END_BACKUP_DESCRIPTION +"] ")
