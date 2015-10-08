@@ -2,16 +2,6 @@
 #us-west-1 = US west North California
 #eu-west-1 = EU Ireland
 
-#####################################
-#servers present in North Virginia  #
-#####################################
-#node1.us1.dc.coresuite.com         #
-#node1.us2.dc.coresuite.com         #
-#us.operation.coresuite.com         #
-#                                   #
-#####################################
-
-
 
 
 '''EC2 snapshot settings'''
