@@ -1,9 +1,5 @@
 #!/usr/bin/python
-####################
-# Annalisa Russo   #
-# Coresystems      #
-# 2013             #
-####################
+
 
 # Standard Nagios return codes
 OK = 0
