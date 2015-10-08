@@ -17,7 +17,7 @@ from array import *
 
 """Creates snapshots of selected instances on daily,weekly,monthly basis. Also manages the purge of expired snapshots"""
 
-from settorEUIRELANDNEWEUOperation import *
+from  sectorEUIRELANDops import *
 
 
 path1 = '/opt/applications/backupy/NEW-EU-Operations/backup.log'
